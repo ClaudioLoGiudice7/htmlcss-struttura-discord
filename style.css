@@ -35,17 +35,17 @@ a{
 
 .first{
     width: 150px;
-    text-align: start;
+    justify-content: flex-start;
 }
 
 .second {
     width: 700px;
-    text-align: center;
+    justify-content: center
 }
 
 .third {
     width: 150px;
-    text-align: end;
+    justify-content: flex-end;
 }
 
 section{
@@ -143,4 +143,31 @@ section{
 
 .dark-grey.section{
     padding-bottom: 10px;
+}
+
+hr{
+    color: #fff;
+}
+
+footer{
+    height: 100px;
+    background-color: #23272a;
+    display: flex;
+    align-items: flex-end;
+}
+
+#nav-footer{
+    display: flex;
+    background-color: #7fffd4;
+    height: 80px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    background-color: #ffb6c1;
+    padding: 5px;
 }
